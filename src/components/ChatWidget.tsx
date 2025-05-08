@@ -231,17 +231,12 @@ const ChatWidget = ({ isDarkMode = false }: ChatWidgetProps) => {
     };
   }, [isDragging, dragOffset]);
   
-  const getChatWindowPosition = () => {
-    return { bottom: 90, right: 20 };
-  };
-
   const getToggleButtonSize = () => {
     return window.innerWidth <= 768 ? '70px' : '60px';
   };
 
   const { width, height } = getChatWindowSize();
   const toggleButtonSize = getToggleButtonSize();
-  const chatWindowPosition = getChatWindowPosition();
 
   return (
     <div className="chat-widget">
@@ -404,7 +399,7 @@ const ChatWidget = ({ isDarkMode = false }: ChatWidgetProps) => {
                   variant="primary" 
                   className="ms-2 px-3"
                   disabled={inputMessage.trim() === ''}
-                  size={isExpanded ? "lg" : "md"}
+                  size={isExpanded ? "lg" : "sm"}
                 >
                   Send
                 </Button>
@@ -414,7 +409,7 @@ const ChatWidget = ({ isDarkMode = false }: ChatWidgetProps) => {
         </Card>
       )}
       
-      <style jsx>{`
+      <style>{`
         .typing-indicator {
           display: flex;
           align-items: center;
