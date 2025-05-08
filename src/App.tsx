@@ -187,21 +187,21 @@ function App() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="./img1.jpeg"
+                    src="img1.jpeg"
                     alt="Software Marketplace"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="./img2.jpeg"
+                    src="img2.jpeg"
                     alt="Software Marketplace"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="./img3.jpeg"
+                    src="img3.jpeg"
                     alt="Software Marketplace"
                   />
                 </Carousel.Item>
