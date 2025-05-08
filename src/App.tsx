@@ -7,8 +7,7 @@ import {
   FaShieldAlt, 
   FaRocket, 
   FaGlobe, 
-  FaDollarSign, 
-  FaComments 
+  FaDollarSign
 } from 'react-icons/fa'
 import ChatWidget from './components/ChatWidget'
 import './App.css'
@@ -182,27 +181,26 @@ function App() {
                 indicators={true}
                 interval={5000}
                 controls={true}
-                ride="carousel"
               >
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fazuremarketplace.microsoft.com%2Fen-us%2F&psig=AOvVaw1cP7wSP9S76bcpQOMZW2Zn&ust=1746769763465000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjMmM2Wk40DFQAAAAAdAAAAABAJ"
-                    alt="Software Marketplace"
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
+                    alt="Software licensing services"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="img2.jpeg"
-                    alt="Software Marketplace"
+                    src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1200&auto=format&fit=crop"
+                    alt="Digital asset management"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="img3.jpeg"
-                    alt="Software Marketplace"
+                    src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1200&auto=format&fit=crop"
+                    alt="Business technology solutions"
                   />
                 </Carousel.Item>
               </Carousel>
