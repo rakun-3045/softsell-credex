@@ -187,7 +187,7 @@ function App() {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="img1.jpeg"
+                    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fazuremarketplace.microsoft.com%2Fen-us%2F&psig=AOvVaw1cP7wSP9S76bcpQOMZW2Zn&ust=1746769763465000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKjMmM2Wk40DFQAAAAAdAAAAABAJ"
                     alt="Software Marketplace"
                   />
                 </Carousel.Item>
