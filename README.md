@@ -1,5 +1,5 @@
 # SoftSell - Software License Resale Platform
-
+Link: https://rakun-3045.github.io/softsell-credex/
 A responsive, single-page marketing website for a fictional software resale startup. This project showcases a modern web application built with React.js, Vite, and Bootstrap.
 
 ![SoftSell Website Preview](https://placehold.co/800x400?text=SoftSell+Website+Preview)
